@@ -1,0 +1,39 @@
+body {
+	background-color: #01212B;
+	color: #EF9061;
+	text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+a.link_details, a.link_details:visited {
+	background-color: #EF9061;
+	border-radius: 1em;
+	color: #FFF;
+	padding: 10px;
+
+}
+
+.link_container {
+	margin-bottom: 2em;
+}
+
+@media screen and (min-width: 768px) {
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 40%;
+	}
+}
